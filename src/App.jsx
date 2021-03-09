@@ -1,3 +1,5 @@
+import './styles/global.css';
+
 export function App() {
-  throw new Error('Deriki, meu Deus');
+  <h1>Hello Recruit 👨‍🚀🔥</h1>;
 }
