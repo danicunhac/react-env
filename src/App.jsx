@@ -1,3 +1,3 @@
 export function App() {
-  return <h1>Hello Recruit 🔥👨‍🚀</h1>;
+  throw new Error('Deriki, meu Deus');
 }
