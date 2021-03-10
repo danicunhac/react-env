@@ -9,14 +9,42 @@ section.repository-list {
     list-style: none;
 
     li {
+      background: #000;
+      color: #fff;
+
+      border: 2px solid #8257e6;
+      padding: 1rem;
+      border-radius: 10px;
+
+      width: 512px;
+      display: flex;
+      flex-direction: column;
+
       & + li {
         margin-top: 20px;
       }
 
       p {
         font-size: 14px;
-        color: #444;
         margin-top: 8px;
+      }
+
+      div.header {
+        display: flex;
+        align-items: center;
+        div {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      img {
+        width: 64px;
+        height: 64px;
+        border-radius: 32px;
+        margin-right: 1rem;
+
+        border: 2px dashed #8257e6;
       }
 
       a {
@@ -24,6 +52,7 @@ section.repository-list {
         margin-top: 16px;
         text-decoration: none;
         color: #8257e6;
+        align-self: flex-end;
       }
     }
   }
